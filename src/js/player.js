@@ -740,7 +740,7 @@ vjs.Player.prototype.src = function(source){
       }
     } else {
       this.el_.appendChild(vjs.createEl('p', {
-        innerHTML: 'Sorry, no compatible source and playback technology were found for this video. Try using another browser like <a href="http://bit.ly/ccMUEC">Chrome</a> or download the latest <a href="http://adobe.ly/mwfN1">Adobe Flash Player</a>.'
+        innerHTML: 'Désolé votre appareil ne peut pas lire les vidéos Webm (surement à cause d'apple ?) visitez  <a href="http://webm.html5.org/">le site de WEBM</a> pour trouver une solution.'
       }));
     }
 
